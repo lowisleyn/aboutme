@@ -1,11 +1,56 @@
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  </style>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <img src="assets/tab1/leyn.jpg"/>
+      
+      <ion-list>
+        <ion-item-divider>
+          &nbsp;<ion-icon name="person"></ion-icon>
+          <ion-label>&nbsp; Louisse Laine B. Eleda</ion-label>
+        </ion-item-divider>
+  
+        <br><ion-item-divider>
+          &nbsp;<ion-icon name="pencil"></ion-icon>
+          <ion-label>&nbsp; Leyn</ion-label>
+        </ion-item-divider>
+  
+        <br><ion-item-divider>
+          &nbsp;<ion-icon name="calendar"></ion-icon>
+          <ion-label>&nbsp; May 30, 2001</ion-label>
+        </ion-item-divider>
+  
+        <br><ion-item-divider>
+          &nbsp;<ion-icon name="pin"></ion-icon>
+          <ion-label>&nbsp; Durungao, Bauan, Batangas</ion-label>
+        </ion-item-divider>
+  
+      </ion-list>
+  
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-text>
+    <h6>Social Media</h6>
+  </ion-text>
+
+  <div class="socmed">
+    <ion-button (click)="onClick()" fill="clear">
+      <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+    </ion-button>
+
+    <ion-button (click)="onClick()" fill="clear">
+      <ion-icon slot="icon-only" name="logo-instagram"></ion-icon>
+    </ion-button>
+
+    <ion-button (click)="onClick()" fill="clear">
+      <ion-icon slot="icon-only" name="logo-twitter"></ion-icon>
+    </ion-button>
+
+    <ion-button (click)="onClick()" fill="clear">
+      <ion-icon slot="icon-only" name="mail"></ion-icon>
+    </ion-button>
+
+</div>
+    
+
 </ion-content>
