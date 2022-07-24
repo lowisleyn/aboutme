@@ -32,10 +32,15 @@ img{
     left: 50px;
     color: #C6025F;
     font-family: 'Poppins', sans-serif;
+    font-size: smaller;
   }
 
   .socmed{
     position: absolute;
-    top: 580px;
-    left: 50px;
+    top: 570px;
+    left: 40px;
+  }
+
+  ion-button{
+    font-size: larger;
   }
