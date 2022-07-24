@@ -1,0 +1,39 @@
+img{
+    width:100%;
+    height:100%;
+  }
+  
+  .myCard{
+    position:relative;
+  }
+  
+  .myOverlay{
+      width: 100%;
+      height: 40px;
+      position: absolute;
+      top:30px;
+      bottom: 0px;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.15);;
+  }
+
+  .card-title1{
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .card-title2{
+    padding-left: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .card-title3{
+    padding-left: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
