@@ -1,0 +1,33 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+</style>
+
+<ion-content [fullscreen]="true">
+
+  <div class="wp">
+    <ion-button (click)="back()" fill="clear">
+      <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+      <ion-label>&nbsp; Back</ion-label>
+    </ion-button>
+  </div>
+  <center><h1>FRIENDS</h1></center>
+
+
+  <br><br><h3><center>RUNAWAYKIDS</center></h3>
+
+  <div class="lol">
+  <ul *ngFor = "let item of friendss">
+    <li *ngIf="item.kind === 0">{{item.name}}</li>
+  </ul>
+  </div>
+
+  <br><br><h3><center>PAINPAINDESARAPAIN</center></h3>
+  <div class="lol1">
+  <ul *ngFor = "let item of friendss">
+    <li *ngIf="item.kind === 1">{{item.name}}</li>
+  </ul>
+  </div>
+
+</ion-content>
