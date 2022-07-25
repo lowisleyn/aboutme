@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -10,6 +11,10 @@ export class Tab1Page {
 
   
 
-  constructor() {}
+  constructor(private router:Router) {}
+
+  wp(){
+    this.router.navigate(['welcome'])
+  }
 
 }
